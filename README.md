@@ -1,4 +1,4 @@
 # Bbybello.github.io 
 Hello Im Yoselin, I go by Bello
-ABout me 
+Aout me 
 I have two cats named maui and leon
