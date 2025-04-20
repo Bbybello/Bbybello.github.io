@@ -1,13 +1,7 @@
 /* AI-ASSISTED: This hero section styling was generated using ChatGPT */
 .hero {
-  body {
-  background-image: url('https://via.placeholder.com/1600x900/ffb6c1/ffffff.png?text=Pink+Background');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-  background: linear-gradient(to right, #4facfe, #00f2fe);
+  background: linear-gradient(to right, #FADADD, #E4B2B3);
   text-align: center;
   padding: 80px 20px;
   color: white;
