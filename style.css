@@ -1,6 +1,14 @@
-/* AI-ASSISTED: This hero section styling was generated using ChatGPT */
+/* Pink-themed CSS Template */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffc0cb, #ff69b4); /* Light pink to hot pink */
+  color: #333;
+}
+
 .hero {
-  background: linear-gradient(to right, #FADADD, #E4B2B3);
+  background-color: #ffb6c1;
   text-align: center;
   padding: 80px 20px;
   color: white;
@@ -13,21 +21,26 @@
 }
 .cta-button {
   background-color: white;
-  color: #0077cc;
+  color: #d6336c;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
   transition: background 0.3s ease;
 }
 .cta-button:hover {
-  background-color: #0077cc;
+  background-color: #d6336c;
   color: white;
 }
 
-/* About, Services, Contact */
 section {
   padding: 40px 20px;
   text-align: center;
+}
+.about, .services, .contact {
+  background-color: #ffe4e1;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
 }
 .services ul {
   list-style: none;
@@ -37,7 +50,6 @@ section {
   margin: 10px 0;
 }
 
-/* Contact Form */
 form {
   max-width: 400px;
   margin: 0 auto;
@@ -46,9 +58,11 @@ input, textarea {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
+  border: 1px solid #ff69b4;
+  border-radius: 5px;
 }
 button {
-  background-color: #0077cc;
+  background-color: #ff69b4;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -56,17 +70,15 @@ button {
   transition: transform 0.3s ease;
 }
 button:hover {
-  transform: scale(1.05); /* Simple animation */
+  transform: scale(1.05);
 }
 
-/* Footer */
 footer {
-  background-color: #f1f1f1;
+  background-color: #ffc0cb;
   text-align: center;
   padding: 20px;
 }
 
-/* Mobile Responsive */
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 2rem;
