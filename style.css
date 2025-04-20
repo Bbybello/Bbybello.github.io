@@ -1,6 +1,11 @@
 /* AI-ASSISTED: This hero section styling was generated using ChatGPT */
 .hero {
-  background: linear-gradient(to right, 135deg, #ffb6c1, #ff69b4);
+  body {
+  margin: 0;
+  background: linear-gradient(135deg, #ffb6c1, #ff69b4); /* light pink to hot pink */
+  background-size: cover;
+  font-family: sans-serif;
+}
   text-align: center;
   padding: 80px 20px;
   color: white;
